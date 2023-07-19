@@ -3,7 +3,7 @@ const MgtServices = () => {
     const CompName="Services";
 return (
    
-    <div>
+    <div width ="60%">
         <h2>{CompName}</h2>
         <p>Royal Consulting works with property owner and tenants to help protect your investment. 
             Part of our property management services is to provide property inspections and regular maintenance.
@@ -47,6 +47,11 @@ return (
             Our leases are clear, concise, attorney reviewed and enforceable in court.
             We keep accurate ledgers of all tenant deposits and payments.
 
+            <h3>Payments</h3>
+            <p>
+                You will be directed to a third party site to submit your payment. <br />
+                <a href="https://www.rentspree.com/dashboard/rent-payments" alt="Payments" >Paymets to Royal Consulting LLC doing business as Royal Managed Propeties.</a>
+            </p>
         </p>
     </div>
 );
