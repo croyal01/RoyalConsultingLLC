@@ -5,6 +5,7 @@ import Header from "./Header";
 import Welcome from "./Welcome";
 import About from "./About";
 import MgtServices from "./MgtServices";
+//import CommunicationForm from "./CommunicationForm";
 import Footer from "./Footer";
 
 
@@ -17,13 +18,15 @@ function App() {
       <About />
       <Welcome />
       <MgtServices />
+      
       <Footer /> 
-      </header>
+    </header>
     </div>
     
   );
 }
  /*
+ <CommunicationForm /> 
  <div className="App">  
  <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

@@ -52,7 +52,7 @@ return (
             <h3>Payments</h3>
             <p className={cn} style={{marginLeft:'5%', marginRight:'5%'}}>
                 You will be directed to a third party site to submit your payment. <br />
-                <a href="https://www.rentspree.com/dashboard/rent-payments" alt="Payments" >Paymets to Royal Consulting LLC doing business as Royal Managed Propeties.</a>
+                <a href="https://www.rentspree.com/dashboard/rent-payments" alt="Payments" >Payments to Royal Consulting LLC doing business as Royal Managed Propeties.</a>
             </p>
         </p>
     </div>
