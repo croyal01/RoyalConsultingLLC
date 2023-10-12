@@ -2,9 +2,9 @@ import React from 'react';
 const Welcome = () => {
 const CompName="Welcome";
 return (
-    <div>
+    <div style={{marginLeft:'5%', marginRight:'5%', border:'1px'}}>
         <h2>{CompName}</h2>
-        <p>Welcome to Royal Consulting LLC.
+        <p style={{marginLeft:'5%'}}> Welcome to Royal Consulting LLC.
             We offer homes and apartments for rent in South Jersey, Pennsylvania and Northern Delaware. 
             At Royal Consulting LLC (Royal Managed Properties ), we concentrate on quality maintenance and management of properties. 
             We strive to create a positive rental experience for both our tenants and our landlords. We know that renters today have high standards, and
