@@ -1,47 +1,41 @@
+
 import React from "react";
 //import logo from './logo.svg';
 import './App.css';
-import Header from "./Header";
-import Welcome from "./Welcome";
-import About from "./About";
-import MgtServices from "./MgtServices";
-//import CommunicationForm from "./CommunicationForm";
-import Footer from "./Footer";
+import {BrowserRouter as Router } from "react-router-dom";
+//import "bootstrap/dist/css/bootstrap.css";
 
+
+import Header from "./Header";
+import About from "./About";
+import Welcome from "./Welcome";
+import MgtServices from "./MgtServices";
+import Footer from "./Footer";
+//Simport NavBar from "./NaveBar";
 
 
 function App() {
   return (
     <div>  
+   
     <header className="App-header">
-      <Header />
-      <About />
-      <Welcome />
-      <MgtServices />
+    <Router>
+        <Header />
+       {/* <NavBar/> */}
+       
+        
+        <About /> 
+        <Welcome />
+        <MgtServices />  
+        <Footer />  
       
-      <Footer /> 
+    </Router>
+       
     </header>
     </div>
     
   );
 }
- /*
- <CommunicationForm /> 
- <div className="App">  
- <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        </header>
-        </div>  
-  */
+ 
 export default App;
+ 
