@@ -23,7 +23,7 @@ return (
             <h3>
                 Inspections
             </h3>
-            <p className={cn2} style={{marginLeft:'5%', marginRight:'5%'}}>We want to make sure yur property stays in top shape, so we conduct periodic inspections to ensure the tenants are maintaining your property as required.
+            <p className={cn2} style={{marginLeft:'5%', marginRight:'5%'}}>We want to make sure your property stays in top shape, so we conduct periodic inspections to ensure the tenants are maintaining your property as required.
                We also attend all necessary municipal inspections for you as well.
             </p>
 
